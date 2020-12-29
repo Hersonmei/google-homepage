@@ -7,15 +7,45 @@
         img{
             position: absolute;
             margin: auto;
-            top: 0;
+            top: 180px;
             left: 0;
             right: 0;
-            bottom: 0;
+            
            }
 
+         
+        .form-text{
+            width: 500px;
+            border-radius: 30px;
+            padding: 12px 20px;
+            box-shadow: ;
+
+            
+        }
         
+        form {
+         text-align: center;
+        }
 
+        #form-login{
+            left: 50%;
+            top: 37%;
+            position: absolute;
+            -webkit-transform: translate3d(-50%, -50%, 0);
+            -moz-transform: translate3d(-50%, -50%, 0);
+            transform: translate3d(-50%, -50%, 0);
+        }
 
+        .style-buttom{
+            border-radius: 4px;
+            border:  1px solid #f8f9fa;
+            padding: 10px;
+            background-color: #f8f9fa;
+            font-family:  arial,sans-serif;
+            margin: 11px 14px;
+            cursor: pointer;
+            user-select: none;
+        }
 
     </Style>
         
@@ -27,9 +57,11 @@
         <div>
             <img src="./images/googlelogo_color_272x92dp.png" alt="Logo do Google">
 
-            <form action="https://www.google.com/search?sxsrf=">
-                
-
+            <form id="form-login" method="GET" action="https://www.google.com/search">
+                <input class="form-text" type="text" name="f"><br><br>
+                <input class="style-buttom" type="submit" value="Pesquisa Google">
+                <input class="style-buttom" type="submit" value="Estou com sorte">
+            
             </form>
 
         </div>
@@ -40,6 +72,6 @@
 
 
 
-    </main>>
+    </main>
 </body>
 </html>
