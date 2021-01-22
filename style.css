@@ -1,5 +1,6 @@
 
-img{
+
+.logo{
     position: absolute;
     margin: auto;
     top: 180px;
@@ -36,11 +37,11 @@ form {
     -webkit-transform: translate3d(-50%, -50%, 0);
     -moz-transform: translate3d(-50%, -50%, 0);
     transform: translate3d(-50%, -50%, 0);
+} 
+
+li img {
+    padding: 0 12px;
 }
-
-
-    
-
 
 .style-buttom{
     border-radius: 4px;
@@ -60,10 +61,12 @@ form {
 
 }
 
+/* List */
+
 ul {
     list-style-type: none;
     margin-top:  20px;
-    margin-right: 20px;
+    margin-right: 0px;
     padding: 0;
     font-family:  arial,sans-serif;
     font-size: 13px;
@@ -71,7 +74,7 @@ ul {
     }
 
 li {
-        float: right;
+    float: right;
         
 }
 
@@ -82,18 +85,41 @@ li a {
     
 }
 
+
+
 li a:hover {
     text-decoration: underline;
     color: gray;
 }
-  
+ 
+.login{
+    width: 25px;
+    height: 20px;
+    
+}
+/* Footer */
+
 footer{
+    overflow: hidden;
     background: #f8f9fa;
     position:absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    text-align: center;
     font-family: arial,sans-serif;
+    list-style: none;
 }
 
+.footer-left{
+    float: left;
+    padding-left: 20px;
+}
+
+.footer-right{
+    float: right;
+    padding-right: 20px;
+}
+
+.gray{
+    color: red);
+}
