@@ -23,7 +23,8 @@
 }
 
 .form-text:hover{
-    
+    box-shadow: 0 0 6px rgb(187, 186, 186);
+    transition: all 200ms ease-out;
 }
 
 form {
