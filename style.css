@@ -1,4 +1,4 @@
-
+/* Content */
 
 .logo{
     position: absolute;
@@ -62,7 +62,7 @@ li img {
 
 }
 
-/* List */
+/* List do navbar*/
 
 ul {
     list-style-type: none;
